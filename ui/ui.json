@@ -1,0 +1,88 @@
+[
+	{
+		"content": "frame",
+		"title": "Menu",
+		"alignment": "LEFT", "pos_x": 0, "pos_y": 0, "size_x": 128, "size_y": 32,
+		"visible": true,
+
+		"highlight": [
+			{
+				"content": "button",
+				"title": "button_movement",
+				"font": "ui/font.ttf", "text": "Edit Mode",
+				"alignment": "DOWN", "pos_x": 0, "pos_y": 0, "size_x": 128, "size_y": 32,
+				"texture_normal": "ui/ui_tex_green.png",
+				"texture_select": "ui/ui_tex_green_select.png",
+				"visible": true
+			},
+
+			{
+				"content": "button",
+				"title": "button_add_star",
+				"font": "ui/font.ttf", "text": "Movement mode",
+				"alignment": "DOWN", "pos_x": 0, "pos_y": 0, "size_x": 128, "size_y": 32,
+				"texture_normal": "ui/ui_tex_yellow.png",
+				"texture_select": "ui/ui_tex_yellow_select.png",
+				"visible": false
+			},
+		]
+	},
+
+	{
+		"content": "frame",
+		"title": "Grid",
+		"alignment": "LEFT", "pos_x": 0, "pos_y": -40, "size_x": 128, "size_y": 32,
+		"visible": true,
+
+		"highlight": [
+			{
+				"content": "button",
+				"title": "button_grid_on",
+				"font": "ui/font.ttf", "text": "Grid On",
+				"alignment": "DOWN", "pos_x": 0, "pos_y": 0, "size_x": 128, "size_y": 32,
+				"texture_normal": "ui/ui_tex_green.png",
+				"texture_select": "ui/ui_tex_green_select.png",
+				"visible": true
+			},
+
+			{
+				"content": "button",
+				"title": "button_grid_off",
+				"font": "ui/font.ttf", "text": "Grid Off",
+				"alignment": "DOWN", "pos_x": 0, "pos_y": 0, "size_x": 128, "size_y": 32,
+				"texture_normal": "ui/ui_tex_red.png",
+				"texture_select": "ui/ui_tex_red_select.png",
+				"visible": false
+			},
+		]
+	},
+
+	{
+		"content": "frame",
+		"title": "RealPos",
+		"alignment": "LEFT", "pos_x": 0, "pos_y": -80, "size_x": 128, "size_y": 32,
+		"visible": true,
+
+		"highlight": [
+			{
+				"content": "button",
+				"title": "button_real_pos_on",
+				"font": "ui/font.ttf", "text": "Star real pos On",
+				"alignment": "DOWN", "pos_x": 0, "pos_y": 0, "size_x": 128, "size_y": 32,
+				"texture_normal": "ui/ui_tex_green.png",
+				"texture_select": "ui/ui_tex_green_select.png",
+				"visible": false
+			},
+
+			{
+				"content": "button",
+				"title": "button_real_pos_off",
+				"font": "ui/font.ttf", "text": "Star real pos Off",
+				"alignment": "DOWN", "pos_x": 0, "pos_y": 0, "size_x": 128, "size_y": 32,
+				"texture_normal": "ui/ui_tex_red.png",
+				"texture_select": "ui/ui_tex_red_select.png",
+				"visible": true
+			},
+		]
+	},
+]
